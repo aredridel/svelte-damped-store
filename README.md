@@ -1,7 +1,7 @@
 
 # Svelte Damped Store
 
-This module came about because I was binding an `<input type="range">` to a numeric store, which would update and reflect the most recent server value back, while user input was ongoing. This gives a tidy interface to suspend updates while a user is interacting (at least with the mouse for now), and resume when they let go and a little tine has passed.
+This module came about because I was binding an `<input type="range">` to a numeric store, which would update and reflect the most recent server value back, while user input was ongoing. This gives a tidy interface to suspend updates while a user is interacting (at least with the mouse for now), and resume when they let go and a little time has passed.
 
 ## Use
 
