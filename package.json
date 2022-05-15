@@ -1,6 +1,6 @@
 {
   "name": "@aredridel/svelte-damped-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A derived writable store that can suspend updates",
   "main": "./dist/index.js",
   "scripts": {
