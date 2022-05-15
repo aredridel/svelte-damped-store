@@ -1,0 +1,52 @@
+{
+  "name": "@aredridel/svelte-damped-store",
+  "version": "1.0.0",
+  "description": "A derived writable store that can suspend updates",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "vitest --run",
+    "prepare": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aredridel/svelte-damped-store.git"
+  },
+  "keywords": [
+    "svelte",
+    "store",
+    "reactive",
+    "ui"
+  ],
+  "type": "module",
+  "author": {
+    "name": "Aria Stewart",
+    "email": "aredridel@dinhe.net"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aredridel/svelte-damped-store/issues"
+  },
+  "homepage": "https://github.com/aredridel/svelte-damped-store#readme",
+  "private": false,
+  "files": [
+    "./bin/*",
+    "./dist/*"
+  ],
+  "typings": "./dist/index.d.ts",
+  "dependencies": {
+    "svelte": "^3.48.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "1.0.0-next.44",
+    "happy-dom": "^3.2.0",
+    "typescript": "4.8.0-dev.20220515",
+    "vite": "^2.9.9",
+    "vitest": "^0.12.6"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    }
+  }
+}
