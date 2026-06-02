@@ -34,7 +34,7 @@
   ],
   "typings": "./dist/index.d.ts",
   "dependencies": {
-    "svelte": "^3.59.2"
+    "svelte": "^5.55.7"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "7.1.2",
