@@ -1,7 +1,7 @@
 import { writable } from "svelte/store";
 import { test, expect, describe, vi } from "vitest";
 
-import { damper, damperAction } from "./index";
+import { damper, damperAction } from "./index.ts";
 
 describe("store", () => {
   test("timeout is reflected", async () => {
